@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Hero from './Hero';
 import About from './About';
+import Work from './Work';
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Hero />
         <About />
+        <Work />
       </div>
     );
   }

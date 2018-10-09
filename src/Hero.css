@@ -2,7 +2,7 @@
 .hero {
   background-image: url("./assets/wood.jpg");
   background-size: cover;
-  height: 50%;
+  height: 100vh;
   display: flex;
   /* justify-content: center;
   align-items: center;

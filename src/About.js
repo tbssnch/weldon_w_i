@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Jumbotron, Image, Col, Row, Clearfix } from 'react-bootstrap';
-import bio from './assets/hero_img.jpg';
+import bio from './assets/Mitch_Weldon.JPG';
 import './About.css';
 
 
@@ -10,7 +10,6 @@ class About extends Component {
   render() {
     return (
       <div className="about-container">
-        <h1>About</h1>
         <div className="bio-container">
           <div className="bio">
             <Row>
@@ -18,12 +17,12 @@ class About extends Component {
                 <Image className="bio-img center-block" src={bio} circle/>
               </Col>
               <Col xs={12} md={8}>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
+                <div className="about-text">
+                    <h1>About</h1>
+                    <p>
+                    Mitchell Weldon grew up in a small town in rural Iowa. While he always enjoyed shop classses and building, he decided to pursue a career in agriculture. Life then took him to Pennsylvania and he found himself working as a cabinet builder. His passion for woodworking grew. Pursuing love then took him to Oregon where he married his girl and continued building his business of custom wood projects.
+                  </p>
+                </div>
               </Col>
             </Row>
           </div>
