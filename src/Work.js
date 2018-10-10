@@ -13,7 +13,7 @@ class Work extends Component {
 
   render() {
     return (
-      <div className="work-container">
+      <div id="work" className="work-container">
         <h1>Work</h1>
         <Carousel>
           <Carousel.Item>

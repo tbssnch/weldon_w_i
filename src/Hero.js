@@ -17,13 +17,7 @@ class Hero extends Component {
                 <Image className="hero-img" src={logo}/>
               </Col>
             </Row>
-            <Row>
-              <Col sm={12}>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-              </Col>
-            </Row>
+            
           </div>
         </Jumbotron>
 
