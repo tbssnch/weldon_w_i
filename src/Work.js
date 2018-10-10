@@ -3,8 +3,8 @@ import { Carousel, Image } from 'react-bootstrap';
 import './Work.css';
 import bench from './assets/weldon_wood1.jpg';
 import chairs from './assets/weldon_wood2.jpg';
-import table from './assets/weldon_wood3.jpg';
-import worker from './assets/weldon_wood4.jpg';
+import table from './assets/weldon_wood4.jpg';
+import worker from './assets/weldon_wood6.jpg';
 
 
 
