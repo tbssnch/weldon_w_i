@@ -11,6 +11,7 @@
 }
 
 .about-container h1 {
+  margin-bottom: 75px;
 }
 
 .bio-container {
@@ -23,6 +24,7 @@
 .bio-img {
   width: 30vh;
   height: 30vh;
+  margin-bottom: 50px;
 }
 
 .about-text p {

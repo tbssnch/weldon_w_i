@@ -10,6 +10,7 @@ class About extends Component {
   render() {
     return (
       <div id="about" className="about-container">
+        <h1>About</h1>
         <div className="bio-container">
           <div className="bio">
             <Row>
@@ -18,10 +19,8 @@ class About extends Component {
               </Col>
               <Col xs={12} md={8}>
                 <div className="about-text">
-                    <h1>About</h1>
-                    <p>
-                    Mitchell Weldon grew up in a small town in rural Iowa. While he always enjoyed shop classses and building, he decided to pursue a career in agriculture. Life then took him to Pennsylvania and he found himself working as a cabinet builder. His passion for woodworking grew. Pursuing love then took him to Oregon where he married his girl and continued building his business of custom wood projects.
-                  </p>
+                    <p>Mitchell Weldon grew up in a small town in rural Iowa. While he always enjoyed shop classses and building, he decided to pursue a career in agriculture. Life then took him to Pennsylvania and he found himself working as a cabinet builder.</p>
+                    <p>His passion for woodworking grew. Pursuing love then took him to Oregon where he married his girl and continued building his business of custom wood projects.</p>
                 </div>
               </Col>
             </Row>

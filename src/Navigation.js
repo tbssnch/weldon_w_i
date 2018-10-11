@@ -15,9 +15,7 @@ class Navigation extends Component {
             <Navbar.Brand>
             <Image className="nav-img" src={logo}/>
             </Navbar.Brand>
-            <Navbar.Toggle />
           </Navbar.Header>
-          <Navbar.Collapse>
             <Nav>
               <NavDropdown eventKey={3} title="Menu" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1} href="#about">About</MenuItem>
@@ -26,7 +24,6 @@ class Navigation extends Component {
                 <MenuItem eventKey={3.3} href="#contact">Contact</MenuItem>
               </NavDropdown>
             </Nav>
-          </Navbar.Collapse>
         </Navbar>
       </div>
     );

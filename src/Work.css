@@ -6,6 +6,10 @@
   flex-direction: column;
 }
 
+.work-container h1 {
+  margin-bottom: 75px;
+}
+
 .carousel-inner {
   max-height: 50rem;
 }
